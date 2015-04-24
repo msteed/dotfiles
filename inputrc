@@ -1,0 +1,26 @@
+set bell-style none
+set editing-mode vi
+#set completion-prefix-display-length 2
+#set show-all-if-ambiguous on
+set show-all-if-unmodified on
+set completion-ignore-case on
+set completion-map-case on
+set skip-completed-text on
+
+"\C-l": clear-screen
+
+# Requires 'stty werase undef' in .bashrc.
+set keymap vi-insert
+"\C-w": unix-filename-rubout
+set keymap vi-command
+"\C-w": unix-filename-rubout
+
+# Move the cursor to the end of the line when moving through history
+set keymap vi-command
+"\201": previous-history
+"\202": next-history
+"\203": end-of-line
+"k": "\201\203"
+"j": "\202\203"
+"\e[A": "\201\203"
+"\e[B": "\202\203"

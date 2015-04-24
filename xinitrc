@@ -1,0 +1,26 @@
+xrandr --output DP1 --right-of eDP1 --mode 2560x1440 --auto
+
+xset r rate 240 25
+xset b off
+
+setxkbmap -layout us -option ctrl:nocaps
+
+syndaemon -t -k -i 1.0 -R -d
+synclient MaxTapTime=0
+synclient VertEdgeScroll=0 HorizEdgeScroll=0
+synclient VertTwoFingerScroll=1 HorizTwoFingerScroll=1
+synclient ClickFinger1=1 ClickFinger2=2
+#synclient CircularScrolling=1 CircScrollTrigger=0
+synclient VertScrollDelta=106 HorizScrollDelta=-106
+
+xinput set-button-map "SynPS/2 Synaptics TouchPad" 1 2 3 5 4
+
+xinput set-button-map "Kensington Kensington Slimblade Trackball" 1 2 3 4 5 6 7 3 9
+xinput set-ptr-feedback "Kensington Kensington Slimblade Trackball" 0 3 2
+
+xrdb -merge /home/msteed/.Xresources
+
+autocutsel -fork
+autocutsel -selection PRIMARY -fork
+
+exec spectrwm
