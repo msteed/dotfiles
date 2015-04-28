@@ -13,7 +13,7 @@ set wildignorecase
 set scrolloff=1
 set showcmd
 set tags=./tags;
-set grepprg=gid
+set grepprg=~/bin/getrefs
 set complete=.,w,b,u,t,i
 set foldmethod=indent
 set nofoldenable
