@@ -149,7 +149,7 @@ function fish_vi_key_bindings --description 'vi-like key bindings for fish'
   bind '"*p' "commandline -i ( xsel -p; echo )[1]"
   bind '"*P' backward-char "commandline -i ( xsel -p; echo )[1]"
 
-  #bind \cl 'clear; commandline -f repaint'
+  bind \cl 'clear; commandline -f repaint'
 
   #
   # insert mode
@@ -200,7 +200,7 @@ function fish_vi_key_bindings --description 'vi-like key bindings for fish'
 
   bind -M insert \ef forward-word
 
-  #bind -M insert \cl 'clear; commandline -f repaint'
+  bind -M insert \cl 'clear; commandline -f repaint'
 
 
   #
