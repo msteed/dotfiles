@@ -1,0 +1,76 @@
+! Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.hintstyle: hintslight
+
+URxvt.transparent: false
+URxvt.borderless: true
+URxvt.inheritPixmap: false
+URxvt.buffered: true
+URxvt.depth: 32
+URxvt.jumpScroll: true
+URxvt.skipScroll: true
+URxvt.font: xft:Liberation Mono:size=10
+URxvt.letterSpace: -2
+URxvt.scrollBar: false
+URxvt.cursorColor: #657b83
+URxvt.cursorColor2: #870000
+URxvt.cursorBlink: true
+URxvt.meta8: false
+URxvt.insecure: true
+URxvt.pointerColor: #657ba3
+URxvt.pointerColor2: #15151b
+URxvt.pointerBlank: true
+URxvt.pointerBlankDelay: 2
+URxvt.visualBell: false
+URxvt.scrollTtyOutput: false
+URxvt.scrollTtyKeypress: true
+URxvt.saveLines: 5000
+URxvt.fading: 0
+URxvt.urlLauncher: google-chrome
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+
+! Hybrid Terminal Colours. Uses the palette from Tomorrow-Night:
+! https://github.com/chriskempson/tomorrow-theme/blob/master/vim/colors/Tomorrow-Night.vim
+
+URxvt.background: #1D1F21
+URxvt.foreground: #C5C8C6
+! black
+URxvt.color0: #282A2E
+URxvt.color8: #373B41
+! red
+URxvt.color1: #A54242
+URxvt.color9: #CC6666
+! green
+URxvt.color2: #8C9440
+URxvt.color10: #B5BD68
+! yellow
+URxvt.color3: #DE935F
+URxvt.color11: #F0C674
+! blue
+URxvt.color4: #5F819D
+URxvt.color12: #81A2BE
+! magenta
+URxvt.color5: #85678F
+URxvt.color13: #B294BB
+! cyan
+URxvt.color6: #5E8D87
+URxvt.color14: #8ABEB7
+! white
+URxvt.color7: #707880
+URxvt.color15: #C5C8C6
+
+
+! Remap Ctrl-1 through Ctrl-5 to jump to tmux windows (Ctrl-6 is useful in vim)
+URxvt.keysym.C-1: \0341
+URxvt.keysym.C-2: \0342
+URxvt.keysym.C-3: \0343
+URxvt.keysym.C-4: \0344
+URxvt.keysym.C-5: \0345
+
+! Remap Ctrl-- and Ctrl-+ to change font sizes
+URxvt.keysym.C-underscore: command:\033]710;xft:Liberation Mono:size=12\007\033]711;xft:Liberation Mono:size=12\007
+URxvt.keysym.C-plus: command:\033]710;xft:Liberation Mono:size=24\007\033]711;xft:Liberation Mono:size=24\007
