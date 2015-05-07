@@ -57,21 +57,6 @@ if &t_Co < 88
     let g:CSApprox_loaded = 1
     colorscheme default
 else
-    "let g:solarized_termcolors=256
-    "let g:solarized_degrade=0
-    "let g:solarized_bold=1
-    "let g:solarized_underline=0
-    "let g:solarized_italic=0
-    "let g:solarized_contrast="normal"
-    "let g:solarized_diffmode="normal"
-    "let g:solarized_menu=0
-    "let g:solarized_termtrans=1
-    "colorscheme solarized
-    "highlight ErrorMsg ctermbg=224
-    "highlight MatchParen term=NONE ctermfg=224 ctermbg=NONE cterm=NONE
-    "highlight cFormat ctermfg=166
-    "highlight Folded term=NONE cterm=NONE
-
     let g:hybrid_use_Xresources=1
     colorscheme hybrid
     highlight MatchParen ctermfg=NONE ctermbg=NONE cterm=BOLD
