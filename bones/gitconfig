@@ -1,0 +1,25 @@
+[user]
+    name = Michael Steed
+    email = msteed68@gmail.com
+
+[color]
+    ui = always
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+
+[core]
+    editor = vim
+
+[merge]
+    tool = vimdiff
+
+[push]
+    default = current
+
+[alias]
+    st = status
+    br = branch
+    ci = commit
+    co = checkout
