@@ -11,7 +11,7 @@ URxvt.buffered: true
 URxvt.depth: 32
 URxvt.jumpScroll: true
 URxvt.skipScroll: true
-URxvt.font: xft:Liberation Mono:size=12
+URxvt.font: xft:Inconsolata:size=13
 URxvt.letterSpace: -2
 URxvt.scrollBar: false
 URxvt.cursorColor: #657b83
