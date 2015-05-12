@@ -1,6 +1,5 @@
 (xbindkey '("XF86AudioRaiseVolume") "amixer sset 'Master',0 2dB+")
 (xbindkey '("XF86AudioLowerVolume") "amixer sset 'Master',0 2dB-")
 (xbindkey '("XF86AudioMute") "amixer set Master toggle")
-(xbindkey '("XF86AudioMicMute") "amixer set Mic toggle")
 (xbindkey '("XF86MonBrightnessDown") "light -U 5")
 (xbindkey '("XF86MonBrightnessUp") "light -A 5")
