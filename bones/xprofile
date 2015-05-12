@@ -20,4 +20,6 @@ xrdb -merge /home/msteed/.Xresources
 autocutsel -fork
 autocutsel -selection PRIMARY -fork
 
+xbindkeys
+
 #exec spectrwm
