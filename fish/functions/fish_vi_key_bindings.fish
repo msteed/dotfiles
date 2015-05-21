@@ -202,8 +202,8 @@ function fish_vi_key_bindings --description 'vi-like key bindings for fish'
   bind -M insert \ef forward-word
 
   bind -M insert \cl 'clear; commandline -f repaint'
-  bind -M insert \ca accept-autosuggestion
-  bind -M insert \cs suppress-autosuggestion
+  bind -M insert \ce accept-autosuggestion
+  #bind -M insert \cs suppress-autosuggestion
 
 
   #
