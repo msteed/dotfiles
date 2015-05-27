@@ -1,6 +1,7 @@
 xrandr --output DP1 --right-of eDP1 --mode 2560x1440 --auto
 
 xset r rate 240 25
+xset m 3 5
 xset b off
 
 setxkbmap -layout us -option ctrl:nocaps
