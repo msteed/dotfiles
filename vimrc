@@ -44,10 +44,11 @@ nmap <C-s> :w<CR>
 nmap = <C-w>+
 nmap - <C-w>-
 
-" Alt-F = find the current word in the ID database
+" Alt-F = grep for the current word or visual selection
 " Ctrl-N and Ctrl-P = next and previous matches
 "nmap <M-f> :silent lgrep "<cword>" \| lwindow<CR><C-l>
 nmap f :silent lgrep "<cword>" \| lwindow<CR><C-l>
+vmap f "vy:silent lgrep "v" \| lwindow<CR><C-l>
 nmap <C-n> :lnext<CR>
 nmap <C-p> :lprevious<CR>
 
