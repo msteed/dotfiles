@@ -13,7 +13,8 @@ set wildignorecase
 set scrolloff=1
 set showcmd
 set tags=./tags;
-set grepprg=~/bin/getrefs
+set grepprg=ag\ --vimgrep\ -s
+set grepformat=%f:%l:%c:%m
 set complete=.,w,b,u,t,i
 set foldmethod=indent
 set nofoldenable
@@ -46,8 +47,7 @@ nmap - <C-w>-
 
 " Alt-F = grep for the current word or visual selection
 " Ctrl-N and Ctrl-P = next and previous matches
-"nmap <M-f> :silent lgrep "<cword>" \| lwindow<CR><C-l>
-nmap f :silent lgrep "<cword>" \| lwindow<CR><C-l>
+nmap f :silent lgrep "\b<cword>\b" \| lwindow<CR><C-l>
 vmap f "vy:silent lgrep "v" \| lwindow<CR><C-l>
 nmap <C-n> :lnext<CR>
 nmap <C-p> :lprevious<CR>
