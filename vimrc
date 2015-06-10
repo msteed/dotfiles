@@ -13,7 +13,7 @@ set wildignorecase
 set scrolloff=1
 set showcmd
 set tags=./tags;
-set grepprg=ag\ --vimgrep\ -s
+set grepprg=~/bin/getrefs
 set grepformat=%f:%l:%c:%m
 set complete=.,w,b,u,t,i
 set foldmethod=indent
