@@ -23,4 +23,4 @@
     br = branch
     ci = commit
     co = checkout
-    logns = log --name-status
+    lns = log --name-status

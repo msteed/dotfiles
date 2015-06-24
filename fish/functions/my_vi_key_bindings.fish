@@ -5,5 +5,3 @@ function my_vi_key_bindings
   bind -M insert \cl 'clear; commandline -f repaint'
   bind -M insert \ce accept-autosuggestion
 end
-
-set -g fish_key_bindings my_vi_key_bindings

@@ -8,7 +8,12 @@ set -x BROWSER "chromium"
 set -x PYTHONPATH "$HOME/salt:$HOME/salt-pylint:$HOME/salt-testing"
 
 set fish_greeting ""
-set fish_color_cwd green
-set fish_color_user cyan
 
-my_vi_mode
+function fish_prompt
+    my_prompt
+end
+
+set -g fish_key_bindings my_vi_key_bindings
+
+abbr -a mtp mktags-python
+abbr -a ts timer -s
