@@ -1,8 +1,9 @@
-xrandr --output DP1 --right-of eDP1 --mode 2560x1440 --auto
+#xrandr --output DisplayPort-0 --right-of eDP-0 --mode 1920x1200 --auto
 
 xset r rate 240 25
 xset m 3 5
 xset b off
+xset s 900 900
 
 setxkbmap -layout us -option ctrl:nocaps
 
@@ -15,6 +16,9 @@ synclient ClickFinger1=1 ClickFinger2=2
 synclient VertScrollDelta=106 HorizScrollDelta=-106
 
 xinput set-button-map "SynPS/2 Synaptics TouchPad" 1 2 3 5 4
+
+xinput set-button-map "Kensington Kensington Slimblade Trackball" 1 2 3 4 5 6 7 3 9
+xinput set-ptr-feedback "Kensington Kensington Slimblade Trackball" 0 3 2
 
 xrdb -merge /home/msteed/.Xresources
 
