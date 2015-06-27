@@ -1,2 +1,11 @@
-defaults.pcm.card 1
-defaults.ctl.card 1
+pcm.!default {
+  type plug
+  slave.pcm {
+    @func getenv
+    vars [ ALSAPCM ]
+    default "hw:PCH"
+  }
+}
+
+# To enable HDMI audio (fish):
+# set -x ALSAPCM hdmi:CARD=HDMI

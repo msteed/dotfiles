@@ -1,4 +1,5 @@
-#xrandr --output DisplayPort-0 --right-of eDP-0 --mode 1920x1200 --auto
+xrandr --output eDP-0 --mode 1920x1080 --right-of HDMI-0
+xrandr --output HDMI-0 --mode 1920x1200
 
 xset r rate 240 25
 xset m 3 5
