@@ -7,5 +7,10 @@ pcm.!default {
   }
 }
 
+ctl.!default {
+  type hw
+  card 1
+}
+
 # To enable HDMI audio (fish):
 # set -x ALSAPCM hdmi:CARD=HDMI
