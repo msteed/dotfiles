@@ -4,7 +4,9 @@ xrandr --output HDMI-0 --mode 1920x1200
 xset r rate 240 25
 xset m 3 5
 xset b off
-xset s 900 900
+#xset s 900 900
+xset s off
+xset -dpms
 
 setxkbmap -layout us -option ctrl:nocaps
 
