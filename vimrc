@@ -20,7 +20,7 @@ set foldmethod=indent
 set nofoldenable
 set fillchars=vert:\ ,fold:.,diff:.
 set directory=~/vim-tmp//,/tmp//
-"set nojoinspaces
+set nojoinspaces
 set background=dark
 "set titlestring=%t\ -\ vim
 set number
