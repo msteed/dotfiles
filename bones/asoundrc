@@ -1,4 +1,15 @@
-# card 0 = HDMI
-# card 1 = PCH
+# PCH
 defaults.pcm.card 1
 defaults.ctl.card 1
+
+# HDMI (bones)
+#pcm.!default {
+#  type plug
+#  slave {
+#    pcm "hdmi:0,0"
+#  }
+#}
+#ctl.!default {
+#  type hw
+#  card 0
+#}
