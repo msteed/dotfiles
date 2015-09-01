@@ -19,7 +19,4 @@
     default = current
 
 [alias]
-    st = status
-    br = branch
-    ci = commit
-    co = checkout
+    lns = log --name-status
