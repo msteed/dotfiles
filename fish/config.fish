@@ -11,9 +11,13 @@ set fish_greeting ""
 
 set -g fish_key_bindings my_vi_key_bindings
 
+abbr -a mtp mktags-python
+abbr -a ts timer -s
+
 abbr -a gs git status
 abbr -a gd git diff
 abbr -a gl git log --name-status
 abbr -a ga git add
-abbr -a mtp mktags-python
-abbr -a ts timer -s
+abbr -a gb git branch
+abbr -a gci git commit
+abbr -a gco git checkout
