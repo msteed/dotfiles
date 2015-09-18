@@ -21,3 +21,4 @@ abbr -a ga git add
 abbr -a gb git branch
 abbr -a gci git commit
 abbr -a gco git checkout
+abbr -a gw git worktree
