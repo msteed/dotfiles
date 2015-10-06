@@ -7,7 +7,7 @@ function pylint2
     if [ -e ./$rcfile ]
         set rcfile (readlink -e ./$rcfile)
         popd
-        /usr/bin/pylint2 --rcfile=$rcfile -r no $argv
+        env pylint2 --rcfile=$rcfile -r no $argv
     else
         echo "no .testing.pylintrc found"
         return 1
