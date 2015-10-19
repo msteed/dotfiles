@@ -1,4 +1,4 @@
-function pyenv
+function penv
     function _report
         echo "VIRTUAL_ENV=$VIRTUAL_ENV"
     end
