@@ -65,11 +65,13 @@ URxvt.color15: #C5C8C6
 
 
 ! Remap Ctrl-1 through Ctrl-5 to jump to tmux windows (Ctrl-6 is useful in vim)
-URxvt.keysym.C-1: \0341
-URxvt.keysym.C-2: \0342
-URxvt.keysym.C-3: \0343
-URxvt.keysym.C-4: \0344
-URxvt.keysym.C-5: \0345
+! Also see tmux.conf and
+! http://unix.stackexchange.com/questions/96884/using-ctrl0-9-to-cycle-between-windows-using-tmux
+URxvt.keysym.C-1: \033[27;5;49~
+URxvt.keysym.C-2: \033[27;5;50~
+URxvt.keysym.C-3: \033[27;5;51~
+URxvt.keysym.C-4: \033[27;5;52~
+URxvt.keysym.C-5: \033[27;5;53~
 
 ! Remap Ctrl-- and Ctrl-+ to change font sizes
 URxvt.keysym.C-underscore: command:\033]710;xft:Liberation Mono:size=10\007\033]711;xft:Liberation Mono:size=10\007
