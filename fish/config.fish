@@ -11,6 +11,11 @@ set fish_greeting ""
 
 set -g fish_key_bindings my_vi_key_bindings
 
+set fish_cursor_default '#a54242'  # red
+set fish_cursor_insert '#657b83'   # gray
+set fish_cursor_visual '#8c9440'   # green
+my_fish_vi_cursor
+
 abbr -a mtp mktags-python
 abbr -a ts timer -s
 
