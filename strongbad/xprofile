@@ -17,7 +17,7 @@ synclient VertScrollDelta=106 HorizScrollDelta=-106
 xinput set-button-map "SynPS/2 Synaptics TouchPad" 1 2 3 5 4
 
 xinput set-button-map "Kensington Kensington Slimblade Trackball" 1 2 3 4 5 6 7 3 9
-xinput set-ptr-feedback "Kensington Kensington Slimblade Trackball" 0 3 2
+xinput set-ptr-feedback "Kensington Kensington Slimblade Trackball" 0 4 2
 
 xrdb -merge /home/msteed/.Xresources
 
