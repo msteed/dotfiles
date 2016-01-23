@@ -1,7 +1,7 @@
 xrandr --output eDP-1 --mode 1920x1080 --right-of HDMI-1
 xrandr --output HDMI-1 --mode 1920x1200
-#xrandr --output HDMI-0 --mode 1920x1080
-#xrandr --output eDP-0 --off
+#xrandr --output HDMI-1 --mode 1920x1080
+#xrandr --output eDP-1 --off
 
 xset r rate 240 25
 xset m 3 5
