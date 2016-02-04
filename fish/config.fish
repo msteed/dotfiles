@@ -16,6 +16,7 @@ set fish_cursor_insert '#657b83'   # gray
 set fish_cursor_visual '#8c9440'   # green
 my_fish_vi_cursor
 
+abbr -a nv nvim
 abbr -a mtp mktags-python
 abbr -a ts timer -s
 
