@@ -8,7 +8,6 @@ set splitbelow splitright
 set noequalalways
 set nostartofline
 set modeline
-set wildmenu
 set wildignorecase
 set scrolloff=1
 set showcmd
@@ -25,9 +24,7 @@ set background=dark
 "set titlestring=%t\ -\ vim
 set number
 set cursorline
-set notitle t_ts=
-set mouse=a
-"set ttymouse=xterm2
+set notitle
 set ttimeoutlen=100
 
 if &term == "linux"
@@ -40,15 +37,13 @@ nmap <C-q> :q<CR>
 nmap <C-s> :w<CR>
 
 " Alt-+ and Alt-- = resize windows
-"nmap <M-=> <C-w>+
-"nmap <M--> <C-w>-
-nmap = <C-w>+
-nmap - <C-w>-
+nmap <M-=> <C-w>+
+nmap <M--> <C-w>-
 
 " Alt-F = grep for the current word or visual selection
 " Ctrl-N and Ctrl-P = next and previous matches
-nmap f :silent lgrep "\b<cword>\b" \| lwindow<CR><C-l>
-vmap f "vy:silent lgrep "v" \| lwindow<CR><C-l>
+nmap <M-f> :silent lgrep "\b<cword>\b" \| lwindow<CR><C-l>
+vmap <M-f> "vy:silent lgrep "v" \| lwindow<CR><C-l>
 nmap <C-n> :lnext<CR>
 nmap <C-p> :lprevious<CR>
 

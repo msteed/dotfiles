@@ -1,6 +1,6 @@
 set PATH $HOME/bin /usr/local/bin /usr/bin
 
-set -x EDITOR "vim"
+set -x EDITOR "nvim"
 set -x PAGER "less"
 set -x LESS "-I -R -S --shift=8"
 #set -x SHELL "/usr/bin/fish"

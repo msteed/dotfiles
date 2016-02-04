@@ -10,10 +10,10 @@
     status = auto
 
 [core]
-    editor = vim
+    editor = nvim
 
 [merge]
-    tool = vimdiff
+    tool = nvim -d
 
 [push]
     default = current
