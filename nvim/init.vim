@@ -22,6 +22,7 @@ set directory=~/vim-tmp//,/tmp//
 set nojoinspaces
 set background=dark
 "set titlestring=%t\ -\ vim
+set ruler
 set number
 set cursorline
 set notitle
