@@ -22,6 +22,7 @@ set directory=~/vim-tmp//,/tmp//
 set nojoinspaces
 set background=dark
 "set titlestring=%t\ -\ vim
+set ruler
 set number
 set cursorline
 set notitle
@@ -42,7 +43,7 @@ nmap <M--> <C-w>-
 
 " Alt-F = grep for the current word or visual selection
 " Ctrl-N and Ctrl-P = next and previous matches
-nmap <M-f> :silent lgrep "\b<cword>\b" \| lwindow<CR><C-l>
+nmap <M-f> :silent lgrep "\b<cword>\b" \| lwindow \| setlocal nocursorline<CR><CR><C-l>
 vmap <M-f> "vy:silent lgrep "v" \| lwindow<CR><C-l>
 nmap <C-n> :lnext<CR>
 nmap <C-p> :lprevious<CR>

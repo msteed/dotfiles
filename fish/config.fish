@@ -19,6 +19,7 @@ my_fish_vi_cursor
 abbr -a nv nvim
 abbr -a mtp mktags-python
 abbr -a ts timer -s
+abbr -a hd hexdump -C
 
 abbr -a gs git status
 abbr -a gd git diff
