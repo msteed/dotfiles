@@ -19,6 +19,7 @@ floating_modifier $mod
 # finds out, if available)
 bar {
     position top
+    output DP1
     status_command i3status
 }
 
