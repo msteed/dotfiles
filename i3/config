@@ -116,3 +116,5 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+bindsym $mod+Shift+z exec "i3lock -c '#000000' -e"
