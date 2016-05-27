@@ -21,6 +21,10 @@ bar {
     position top
     output DP1
     status_command i3status
+    colors {
+        statusline "#707880"
+        separator "#373b41"
+    }
 }
 
 new_window pixel
