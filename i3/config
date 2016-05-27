@@ -22,6 +22,7 @@ bar {
     output DP1
     status_command i3status
     colors {
+        background "#101214"
         statusline "#707880"
         separator "#373b41"
     }
