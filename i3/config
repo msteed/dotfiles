@@ -118,4 +118,16 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+
+mode "launch" {
+    bindsym c exec chromium; mode "default"
+
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
+}
+
+bindsym $mod+o mode "launch"
+
 bindsym $mod+Shift+z exec "i3lock -c '#000000' -e"
