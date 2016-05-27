@@ -134,4 +134,4 @@ mode "launch" {
 
 bindsym $mod+o mode "launch"
 
-bindsym $mod+Shift+z exec "i3lock -c '#000000' -e"
+bindsym $mod+Shift+z exec "i3lock -c '#000000' -d -e"
