@@ -43,8 +43,8 @@ nmap <C-k> <C-w>-
 
 " Alt-F = grep for the current word or visual selection
 " Ctrl-N and Ctrl-P = next and previous matches
-nmap <M-f> :silent lgrep "\b<cword>\b" \| lwindow \| setlocal nocursorline<CR><CR><C-l>
-vmap <M-f> "vy:silent lgrep "v" \| lwindow<CR><C-l>
+nmap ` :silent lgrep "\b<cword>\b" \| lwindow \| setlocal nocursorline<CR><CR><C-l>
+vmap ` "vy:silent lgrep "v" \| lwindow<CR><C-l>
 nmap <C-n> :lnext<CR>
 nmap <C-p> :lprevious<CR>
 
