@@ -38,8 +38,8 @@ nmap <C-q> :q<CR>
 nmap <C-s> :w<CR>
 
 " Alt-+ and Alt-- = resize windows
-nmap <M-=> <C-w>+
-nmap <M--> <C-w>-
+nmap <C-j> <C-w>+
+nmap <C-k> <C-w>-
 
 " Alt-F = grep for the current word or visual selection
 " Ctrl-N and Ctrl-P = next and previous matches
