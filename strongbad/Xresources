@@ -26,7 +26,8 @@ URxvt.pointerBlankDelay: 2
 URxvt.visualBell: false
 URxvt.scrollTtyOutput: false
 URxvt.scrollTtyKeypress: true
-URxvt.saveLines: 5000
+/*URxvt.saveLines: 5000*/
+URxvt.saveLines: 0
 URxvt.fading: 0
 URxvt.urlLauncher: google-chrome
 URxvt.iso14755: false
