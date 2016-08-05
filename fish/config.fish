@@ -9,6 +9,7 @@ set -x PYTHONPATH "$HOME/salt-current:$HOME/raas-current:$HOME/salt-pylint:$HOME
 
 set fish_greeting ""
 
+set -g fish_escape_delay_ms 10
 set -g fish_key_bindings my_vi_key_bindings
 
 set fish_cursor_default '#a54242'  # red
