@@ -26,5 +26,4 @@ autocutsel -selection PRIMARY -fork
 
 xbindkeys
 
-#exec spectrwm
 exec i3
