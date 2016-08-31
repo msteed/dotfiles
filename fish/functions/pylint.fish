@@ -9,7 +9,8 @@ function pylint
         popd
         env pylint --rcfile=$rcfile -r no $argv
     else
-        echo "no .testing.pylintrc found"
+        popd
+        echo "no $rcfile found"
         return 1
     end
 end
