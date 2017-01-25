@@ -11,6 +11,7 @@ set modeline
 set wildignorecase
 set scrolloff=1
 set showcmd
+set inccommand=split
 set tags=./tags;
 set grepprg=~/bin/getrefs
 set grepformat=%f:%l:%c:%m
