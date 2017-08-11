@@ -11,8 +11,7 @@ URxvt.buffered: true
 URxvt.depth: 32
 URxvt.jumpScroll: true
 URxvt.skipScroll: true
-URxvt.font: xft:FiraMono:size=11
-!URxvt.font: xft:Hack:size=11
+URxvt.font: xft:Inconsolata:size=12
 URxvt.letterSpace: -1
 URxvt.scrollBar: false
 URxvt.cursorColor: #657b83
