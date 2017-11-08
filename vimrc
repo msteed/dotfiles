@@ -28,7 +28,7 @@ set cursorline
 set notitle t_ts=
 set mouse=a
 "set ttymouse=xterm2
-set ttimeoutlen=100
+set ttimeoutlen=50
 
 if &term == "linux"
     set fillchars=vert:\ ,fold:-,diff:-
