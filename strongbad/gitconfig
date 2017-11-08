@@ -20,3 +20,6 @@
 
 [alias]
     lns = log --name-status
+
+[commit]
+	gpgsign = true

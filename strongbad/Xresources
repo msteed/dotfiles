@@ -12,6 +12,7 @@ URxvt.depth: 32
 URxvt.jumpScroll: true
 URxvt.skipScroll: true
 URxvt.font: xft:Inconsolata:size=12
+URxvt.boldFont: xft:Inconsolata:size=12
 URxvt.letterSpace: -1
 URxvt.scrollBar: false
 URxvt.cursorColor: #657b83
