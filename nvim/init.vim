@@ -38,18 +38,4 @@ vmap `f "vy:silent lgrep "v" \| lwindow<CR><C-l>
 nmap <C-n> :lnext<CR>
 nmap <C-p> :lprevious<CR>
 
-if &t_Co < 88
-    let g:CSApprox_loaded = 1
-    colorscheme default
-else
-    let g:hybrid_use_Xresources=1
-    colorscheme hybrid
-    highlight MatchParen ctermfg=NONE ctermbg=NONE cterm=BOLD
-    highlight Folded cterm=NONE
-    highlight Error cterm=NONE
-    "highlight LineNr ctermbg=235 ctermfg=240
-    "highlight CursorLineNr ctermbg=235 ctermfg=2 cterm=NONE
-    highlight CursorLineNr ctermfg=3 cterm=NONE
-    highlight Special ctermfg=9
-    highlight cFormat ctermfg=11
-endif
+colorscheme solarized
