@@ -16,10 +16,10 @@ set foldmethod=indent
 set nofoldenable
 set fillchars=vert:\ ,fold:.,diff:.
 set nojoinspaces
-set background=dark
 set number
 set cursorline
-set notitle
+set guicursor+=a:blinkwait50-blinkon50-blinkoff50
+set title
 set ttimeoutlen=100
 
 " Ctrl-S = save and Ctrl-Q = close
@@ -38,4 +38,5 @@ vmap `f "vy:silent lgrep "v" \| lwindow<CR><C-l>
 nmap <C-n> :lnext<CR>
 nmap <C-p> :lprevious<CR>
 
+set background=dark
 colorscheme solarized
