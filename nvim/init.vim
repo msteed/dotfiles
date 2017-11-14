@@ -20,7 +20,7 @@ set number
 set cursorline
 set guicursor+=a:blinkwait50-blinkon50-blinkoff50
 set title
-set ttimeoutlen=100
+set ttimeoutlen=10
 
 " Ctrl-S = save and Ctrl-Q = close
 " These two may require 'stty -ixon' in the shell for non-gui vim
