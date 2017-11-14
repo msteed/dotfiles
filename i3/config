@@ -124,8 +124,8 @@ bindsym $mod+Control+e exec "i3-nagbar -t warning -m 'You pressed the exit short
 #
 #bindsym $mod+r mode "resize"
 
-bindsym $mod+Tab focus right
-bindsym $mod+Shift+Tab focus left
+bindsym $mod+Tab exec ~/bin/i3-toplevel-focus right
+bindsym $mod+Shift+Tab exec ~/bin/i3-toplevel-focus left
 
 bindsym $mod+Control+minus move scratchpad
 bindsym $mod+minus scratchpad show
@@ -141,8 +141,8 @@ bindsym $mod+o mode "launch"
 
 bindsym $mod+Control+z exec "i3lock -c '#000000' -d -e"
 
-bindsym Control+1 exec ~/bin/focus-num.py 1
-bindsym Control+2 exec ~/bin/focus-num.py 2
-bindsym Control+3 exec ~/bin/focus-num.py 3
-bindsym Control+4 exec ~/bin/focus-num.py 4
-bindsym Control+5 exec ~/bin/focus-num.py 5
+bindsym Control+Shift+1 exec ~/bin/i3-focus-num 1
+bindsym Control+Shift+2 exec ~/bin/i3-focus-num 2
+bindsym Control+Shift+3 exec ~/bin/i3-focus-num 3
+bindsym Control+Shift+4 exec ~/bin/i3-focus-num 4
+bindsym Control+Shift+5 exec ~/bin/i3-focus-num 5
