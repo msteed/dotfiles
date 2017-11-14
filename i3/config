@@ -141,8 +141,8 @@ bindsym $mod+o mode "launch"
 
 bindsym $mod+Control+z exec "i3lock -c '#000000' -d -e"
 
-bindsym Shift+Control+1 exec ~/bin/focus_num.py 1
-bindsym Shift+Control+2 exec ~/bin/focus_num.py 2
-bindsym Shift+Control+3 exec ~/bin/focus_num.py 3
-bindsym Shift+Control+4 exec ~/bin/focus_num.py 4
-bindsym Shift+Control+5 exec ~/bin/focus_num.py 5
+bindsym Control+1 exec ~/bin/focus-num.py 1
+bindsym Control+2 exec ~/bin/focus-num.py 2
+bindsym Control+3 exec ~/bin/focus-num.py 3
+bindsym Control+4 exec ~/bin/focus-num.py 4
+bindsym Control+5 exec ~/bin/focus-num.py 5
