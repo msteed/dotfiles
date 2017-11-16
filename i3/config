@@ -23,16 +23,16 @@ bar {
     position top
     status_command i3status
     colors {
-        background #00121d
-        statusline #657b83
-        separator #253b42
+        background #505050
+        statusline #a0a0a0
+        separator #101010
 
         # class            border  backgd  text
-        focused_workspace  #93a1a1 #268bd2 #eee8d5
-        active_workspace   #475555 #5f676a #eee8d5
-        inactive_workspace #475555 #002b36 #839496
-        urgent_workspace   #93a1a1 #dc322f #eee8d5
-        binding_mode       #93a1a1 #cb4b16 #eee8d5
+        focused_workspace  #a0a0a0 #a0a0a0 #101010
+        active_workspace   #505050 #505050 #101010
+        inactive_workspace #505050 #505050 #a0a0a0
+        urgent_workspace   #dc322f #dc322f #101010
+        binding_mode       #cb4b16 #cb4b16 #101010
     }
 }
 
