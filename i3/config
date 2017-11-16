@@ -29,7 +29,7 @@ bar {
 
         # class            border  backgd  text
         focused_workspace  #a0a0a0 #a0a0a0 #101010
-        active_workspace   #505050 #505050 #101010
+        active_workspace   #707070 #707070 #101010
         inactive_workspace #505050 #505050 #a0a0a0
         urgent_workspace   #dc322f #dc322f #101010
         binding_mode       #cb4b16 #cb4b16 #101010
