@@ -23,25 +23,25 @@ bar {
     position top
     status_command i3status
     colors {
-        background #505050
-        statusline #a0a0a0
-        separator #101010
+        background #101010
+        statusline #707070
+        separator #404040
 
         # class            border  backgd  text
-        focused_workspace  #a0a0a0 #a0a0a0 #101010
-        active_workspace   #707070 #707070 #101010
-        inactive_workspace #505050 #505050 #a0a0a0
-        urgent_workspace   #dc322f #dc322f #101010
-        binding_mode       #cb4b16 #cb4b16 #101010
+        focused_workspace  #707070 #707070 #101010
+        active_workspace   #505050 #505050 #101010
+        inactive_workspace #101010 #101010 #707070
+        urgent_workspace   #802010 #802010 #101010
+        binding_mode       #a04010 #a04010 #101010
     }
 }
 
 # class                 border  backgd  text    indicator ch.border
-client.focused          #586e75 #586e75 #002b36 #2aa198   #586e75
-client.focused_inactive #001e29 #002b36 #586e75 #484e50   #002b36
-client.unfocused        #002b36 #001e29 #586e75 #292d2e   #002b36
-client.urgent           #dc322f #001e29 #586e75 #dc322f   #dc322f
-client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+client.focused          #303030 #707070 #101010 #30a080   #707070
+client.focused_inactive #303030 #505050 #101010 #505060   #303030
+client.unfocused        #303030 #404040 #101010 #292d2e   #303030
+client.urgent           #802010 #404040 #101010 #802010   #802010
+client.placeholder      #000000 #303030 #f0f0f0 #000000   #303030
 client.background       #000000
 
 new_window pixel 1
