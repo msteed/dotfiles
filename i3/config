@@ -29,6 +29,14 @@ bar {
     }
 }
 
+# class                 border  backgd  text    indicator ch.border
+client.focused          #3f555c #073642 #839496 #2aa198   #3f555c
+client.focused_inactive #0c2229 #002b36 #586e75 #484e50   #002b36
+client.unfocused        #002b36 #001e29 #586e75 #292d2e   #222222
+client.urgent           #002b36 #001e29 #dc322f #dc322f   #dc322f
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+client.background       #000000
+
 new_window pixel 1
 
 # start a terminal
