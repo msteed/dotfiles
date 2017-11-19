@@ -47,7 +47,7 @@ client.background       #000000
 new_window pixel 1
 
 # start a terminal
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec i3-st
 
 # kill focused window
 bindsym $mod+Control+q kill
