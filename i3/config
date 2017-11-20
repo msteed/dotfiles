@@ -36,6 +36,8 @@ bar {
     }
 }
 
+for_window [class="pinentry"] floating enable
+
 # class                 border  backgd  text    indicator ch.border
 client.focused          #303030 #707070 #101010 #30a080   #707070
 client.focused_inactive #303030 #505050 #101010 #505060   #303030
