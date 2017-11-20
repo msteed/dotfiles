@@ -36,7 +36,8 @@ bar {
     }
 }
 
-for_window [class="pinentry"] floating enable
+# gpg passphrase prompt
+for_window [title="pinentry"] floating enable
 
 # class                 border  backgd  text    indicator ch.border
 client.focused          #303030 #707070 #101010 #30a080   #707070
