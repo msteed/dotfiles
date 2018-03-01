@@ -5,7 +5,6 @@ set -x PAGER "less"
 set -x LESS "-I -R -S --shift=8"
 #set -x SHELL "/usr/bin/fish"
 set -x BROWSER "chromium"
-set -x PYTHONPATH "$HOME/raas-current"
 
 set fish_greeting ""
 
