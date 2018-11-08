@@ -19,7 +19,7 @@ set fillchars=vert:\ ,fold:.,diff:.
 set nojoinspaces
 set number
 set cursorline
-set guicursor+=a:blinkwait50-blinkon50-blinkoff50
+set guicursor=
 set title
 set ttimeoutlen=10
 
