@@ -7,6 +7,7 @@ set noequalalways
 set nostartofline
 set modeline
 set wildignorecase
+set wildignore+=*.egg-info/*
 set scrolloff=1
 set inccommand=split
 set grepprg=~/bin/getrefs
