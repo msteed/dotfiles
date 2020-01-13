@@ -16,6 +16,8 @@ set -g fish_key_bindings my_vi_key_bindings
 #set fish_cursor_visual '#8c9440'   # green
 #my_fish_vi_cursor
 
+status --is-interactive; and source (pyenv init -|psub)
+
 abbr -a mtp mktags-python
 abbr -a hd hexdump -C
 
