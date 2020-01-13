@@ -18,6 +18,7 @@ set nofoldenable
 set fillchars=vert:\ ,fold:.,diff:.
 set nojoinspaces
 set number
+set undofile
 set cursorline
 set guicursor=
 set title
